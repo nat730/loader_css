@@ -15,7 +15,18 @@ html,body{
   border: 5px solid white;
   border-right: 5px solid blue;
   border-radius: 50%;
-  animation: rotate 2s infinite;
+  animation: rotate 2s linear infinite;
+}
+
+.spinner{ 
+  position: relative;
+  transform-origin: center;
+  animation: rotate 2s linear infinite;
+  width: 50px;
+}
+
+.spinner img{
+  width: 50px;
 }
 
 @keyframes rotate {
